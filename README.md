@@ -1,4 +1,4 @@
-# Wordle# Lab 1: Wordle
+# Lab 1: Wordle
 
 ## Objective: Complete the program to implement Wordle
 1. Create a GitHub account using your LPS email address and connect it to IntelliJ under the VCS menu. 
@@ -30,6 +30,7 @@ Methods
 	- Returns the contents of the file as an array of Strings
 		- Each String should be a 5 letter word
 	- *Hint: you will need to use the Scanner and File classes*
+
 ### Wordle
 Class Variables
 - ```private String secretWord```
@@ -45,7 +46,7 @@ Methods
 	- Takes a parameter  which is the user's guess
 	- Returns true if the guess matches the secret word and false if not
 - ```public String getHint(String guess)```
-	- Takes the user's guess and compares it with the secretWord. Creates a new String  indicating correct letters, out of place letters and incorrect letters.
+	- Takes the user's guess and compares it with the secretWord. Creates a new String indicating correct letters, out of place letters and incorrect letters.
 	- This method returns the hint String
 	- This method also updates the list of possible letters 
 - ```public getSecretWord()```
@@ -60,3 +61,10 @@ Methods
 ## Deliverable
 - Your Java project with a completed *PlayWordle.java* and *Wordle.java* file. Adhere to the Style Guidelines.
 - Completed README.md file that answers the provided questions.
+
+## Questions
+- What is object-oriented programming?
+- What is a constructor? What do we use it for? What happens when we don't define one?
+- What is the generic syntax for a method header in Java?
+- What is the difference between *public* and *private*?
+- How would I use Math.random() to get a random integer from 1 to 10?
