@@ -15,10 +15,9 @@
 3. Use industry tools like IDEs and Git to develop your code
 ### Getting Started
 
-1. Create a GitHub account using your personal mail address and connect it to IntelliJ under the VCS menu. 
-2. Connect your GitHub account to the GitHub Classroom via the Git & GitHub assignment in Google Classroom.
-3. Pull the GitHub Repository from GitHub Classroom for the starter code.
-4. Upload your assignment to GitHub when you are done and mark 'As Complete' on Google Classroom.
+1. Connect your GitHub account to IntelliJ under the Git menu using a **classic token**.
+2. Pull the GitHub Repository from GitHub Classroom for the starter code.
+3. Upload your assignment to GitHub when you are done and mark 'As Complete' on Google Classroom.
 ### Game Implementation
 
 1. Consider a guessing game in which a player tries to guess a hidden 5-letter word. This hidden word is guessable by the player using the terminal. A guess contains only lowercase letters and has 5 letters. 
